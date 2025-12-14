@@ -1,0 +1,106 @@
+/* Section Formations Populaires */
+.formations-populaires {
+    background-color: var(--color-white);
+    color: #333; 
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.formations-populaires h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.formations-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.formations-card {
+    flex: 1; 
+    max-width: 280px;
+    text-align: left;
+}
+
+.formations-image-placeholder {
+    background-color: var(--color-green);
+    height: 180px; 
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.formations-price-tag {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    border-top-left-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.formations-price-tag-old-price {
+    font-size: 13px;
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.formations-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.formations-instructor {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.formations-rating {
+    color: #FFC700; 
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 0px; 
+}
+
+.formations-rating-star {
+    opacity: 0.3;
+}
+
+.formations-rating-filled {
+    opacity: 1;
+}
+
+.formations-description {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.btn-bordered {
+    display: inline-block;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+
+.btn-bordered:hover {
+    background-color: #3e4b5d;
+}

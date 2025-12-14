@@ -1,0 +1,120 @@
+/* Footer Complet */
+.footer-full {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    padding: 40px 80px 20px 80px;
+    font-size: 14px;
+}
+
+.footer-top-line {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer-logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-white);
+    position: relative;
+    padding-left: 20px;
+    flex-basis: 20%;
+}
+.footer-logo::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-blue);
+}
+
+.footer-links, .footer-contact {
+    flex-basis: 20%;
+}
+
+.footer-links h3, .footer-contact h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    opacity: 0.8;
+    line-height: 2;
+    transition: opacity 0.2s;
+}
+.footer-links a:hover {
+    opacity: 1;
+    color: var(--color-green);
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact .icon {
+    margin-right: 10px;
+    color: var(--color-green);
+    font-size: 16px;
+}
+
+.footer-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-start;
+}
+
+.footer-separator {
+    height: 3px;
+    background-color: var(--color-green);
+    margin: 20px 0;
+}
+
+.footer-bottom-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons p {
+    margin-right: 10px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.icon-social {
+    background-color: var(--color-white);
+    color: var(--color-dark-blue);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 0.2s;
+}
+
+.icon-social:hover {
+    background-color: var(--color-green);
+}

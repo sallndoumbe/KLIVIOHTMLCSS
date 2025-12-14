@@ -1,0 +1,54 @@
+/* Section Formations Récentes */
+.formations-recentes {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white); 
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.formations-recentes h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.formations-recentes .formations-card {
+    background-color: transparent; 
+}
+
+.formations-recentes .formations-title .formations-instructor {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.formations-recentes .formations-title .formations-description {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.formations-recentes .formation-price-tag {
+    background-color:var(--color-white);
+    color: var(--color-dark-blue);
+}
+
+.formations-recentes .formations-price-tag .formations-price-tag-old-price {
+    color: #444; 
+}
+
+
+.btn-filled {
+    display: inline-block;
+    background-color: var(--color-white);
+    color: var(--color-dark-blue);
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    border: 1px solid var(--color-white); 
+}
+
+.btn-fi.btn-filled {
+    background-color: transparent;
+    color: var(--color-white);
+}
