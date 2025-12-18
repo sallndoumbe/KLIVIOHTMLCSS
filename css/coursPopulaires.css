@@ -18,16 +18,18 @@
 }
 
 .formations-recentes .formations-title .formations-instructor {
-    color: rgba(255, 255, 255, 0.7); 
+    color: var(--color-white)
 }
 
 .formations-recentes .formations-title .formations-description {
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--color-white);
 }
 
-.formations-recentes .formation-price-tag {
+.formations-recentes .formations-price-tag {
     background-color:var(--color-white);
     color: var(--color-dark-blue);
+
+
 }
 
 .formations-recentes .formations-price-tag .formations-price-tag-old-price {
